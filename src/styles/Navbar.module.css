@@ -1,0 +1,24 @@
+.navbarContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.profileImage {
+    border-radius: 9999px;
+    padding: 10px;
+}
+.myName {
+    text-align: center;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+}
+.navItems {
+    display: flex;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+}
+.myBio {
+    max-width: 351px;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+}

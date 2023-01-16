@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
+import Navbar from '@/components/navbar'
+import PortfolioThumb from '@/components/PortfolioThumb'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,7 +17,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.description}>
+        <Navbar></Navbar>
+        <PortfolioThumb></PortfolioThumb>
+        {/* <div className={styles.description}>
           <p>
             Get started by editing&nbsp;
             <code className={styles.code}>pages/index.js</code>
@@ -37,7 +41,7 @@ export default function Home() {
               />
             </a>
           </div>
-        </div>
+        </div> */}
 
         <div className={styles.center}>
           <Image
