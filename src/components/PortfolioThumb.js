@@ -1,5 +1,5 @@
-export default function PortfolioThumb() {
-  return (
-    <div>PortfolioThumb</div>
-  )
+export default function PortfolioThumb(props) {
+    return (
+        <div>{props.name}</div>
+    )
 }

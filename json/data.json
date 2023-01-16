@@ -1,0 +1,26 @@
+{
+    "React Battleship": {
+       "id": 0,
+       "uuid": "74ee98fe-7944-48f5-a967-760f08a52824",
+       "name": "React Battleship",
+       "description": "",
+       "thumbnailImage" : "",
+       "technology": [
+          "JavaScript",
+          "React",
+          "Firebase"
+       ]
+    },
+    "Schmood": {
+       "id": 1,
+       "uuid": "d976cfc3-bc85-43e8-b1fc-49f1445ce83e",
+       "name": "Schmood",
+       "description": "",
+       "thumbnailImage" : "",
+       "technology": [
+          "JavaScript",
+          "React",
+          "Firebase"
+       ]
+    }
+}
