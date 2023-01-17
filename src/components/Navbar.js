@@ -21,7 +21,7 @@ export default function Navbar () {
                 <a>Contact</a>
             </div> */}
             <div className={styles.myBio}>
-                <p>Hello, I'm <strong>Alvin</strong>. I'm currently a software engineer at <a href='https://michealthcare.com/'>Medical Informatics Corp</a>. Take a look around and reach out to me if you have any questions.</p>
+                <p>Hello, I&apos;m <strong>Alvin</strong>. I&apos;m currently a software engineer at <a href='https://michealthcare.com/'>Medical Informatics Corp</a>. Take a look around and reach out to me if you have any questions.</p>
             </div>
         </div>
     )
