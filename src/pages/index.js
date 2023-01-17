@@ -3,8 +3,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-import Navbar from '@/components/navbar'
-import PortfolioThumb from '@/components/PortfolioThumb'
+import Navbar from '../components/Navbar'
+import PortfolioThumb from '../components/PortfolioThumb'
 
 const inter = Inter({ subsets: ['latin'] });
 const fetcher = (url) => fetch(url).then((res) => res.json());
