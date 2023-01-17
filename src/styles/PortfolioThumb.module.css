@@ -1,0 +1,15 @@
+.container {
+    position: relative;
+}
+.thumbnail {
+    border-radius: .4em;
+}
+
+.title {
+    color: white;
+    font-weight: 700;
+    font-size: 3em;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
