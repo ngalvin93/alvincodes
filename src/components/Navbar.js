@@ -15,11 +15,6 @@ export default function Navbar () {
                 alt={name}
             />
             <h1 className={styles.myName}>Alvin Ng</h1>
-            {/* <div className={styles.navItems}>
-                <a>Portfolio</a>
-                <a>About</a>
-                <a>Contact</a>
-            </div> */}
             <div className={styles.myBio}>
                 <p>Hello, I&apos;m <strong>Alvin</strong>. I&apos;m currently a software engineer at <a href='https://michealthcare.com/'>Medical Informatics Corp</a>. Take a look around and reach out to me if you have any questions.</p>
             </div>
